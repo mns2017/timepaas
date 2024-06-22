@@ -6,7 +6,7 @@ function speak(text) {
 
     text_speak.rate = 0.5;
     text_speak.volume = 2;
-    text_speak.pitch = 2;
+    text_speak.pitch = 1;
 
     window.speechSynthesis.speak(text_speak);
 }
